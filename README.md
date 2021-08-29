@@ -13,6 +13,6 @@ NHS Dentist Availability Notifier
     * **MAILGUN_API_KEY**: API key for the Mailgun account to send notification email from
     * **MAILGUN_DOMAIN**: Maingun sending domain to send email from
     * **DENTAL_CHOICES_SEARCH_URL**: Dental Choices results page for user's location
-    * **MAX_DISTANCE**: Maximum distance of a dentist from the user's search location
+    * **MAX_DISTANCE_MILES**: Maximum distance, in miles, of a dentist from the user's search location
 * Run `./run.sh`
     * Ideally, this will be run periodically with a scheduler
