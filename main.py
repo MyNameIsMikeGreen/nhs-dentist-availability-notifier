@@ -84,7 +84,7 @@ def main():
 
 
 if __name__ == '__main__':
-    logging.basicConfig(filename='nhsDentistNotifierNotifier.log',
+    logging.basicConfig(filename='nhsDentistAvailabilityNotifier.log',
                         level=logging.INFO,
                         format='%(asctime)s - %(message)s',
                         datefmt='%Y-%m-%dT%H:%M:%S')
