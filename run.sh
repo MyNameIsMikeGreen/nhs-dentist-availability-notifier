@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Performing environment setup..."
 ORIGINAL_DIRECTORY="`pwd`"
 LOCAL_DIRECTORY="`dirname ${0}`"
